@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Technical Test - NASA Image Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react based web app which allows the user to access a NASA API and return images of space relating to their inputted search term.
 
-## Available Scripts
+Access a live version here: https://nasa-api-imagesearch.netlify.app
 
-In the project directory, you can run:
+## Test Requirements
 
-### `npm start`
+I was asked to build a React web application that allows users to search for images based on a query relating to space. The NASA API endpoint for was provided for the image search.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following functionalities had to be implemented:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A Search page which allows users to search for images by keyword
+- Images must be returned upon a successful search
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![My Image](/public/Successful_search.png)
+![My Image](/public/Unsuccessful_search.png)
 
-### `npm run build`
+## Technologies & Concepts Covered
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React inc. RTL
+- Axios
+- APIs
+- Components
+- Props
+- Hooks - useState & useEffect
+- Conditional rendering
+- Multiple component mapping
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1 - Clone the repository to your local machine
 
-### `npm run eject`
+```cli
+git clone https://github.com/Tomm-92/techTest.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2 - Navigate to the project directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```cli
+cd techTest
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3 - Install the project dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```cli
+npm install
+```
 
-## Learn More
+4 - Start the application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```cli
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5 - View the application in the browser:
 
-### Code Splitting
+```cli
+http://localhost:3000/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Application Dependencies
 
-### Analyzing the Bundle Size
+        "dependencies": {
+            "@testing-library/jest-dom": "^5.16.5",
+            "@testing-library/react": "^13.4.0",
+            "@testing-library/user-event": "^13.5.0",
+            "axios": "^1.3.4",
+            "react": "^18.2.0",
+            "react-dom": "^18.2.0",
+            "react-scripts": "5.0.1",
+            "web-vitals": "^2.1.4"
+        },
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tom Wilkinson - https://github.com/Tomm-92
